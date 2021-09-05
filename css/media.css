@@ -65,13 +65,13 @@
   .section__text{
     min-height: 100%
   }
+  .footer__inner{
+    flex-direction: row;
+  }
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
-  .footer__inner{
-   flex-direction: column;
- }
   .container{
     width: 800px
   }
@@ -83,10 +83,10 @@
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
   .container{
-    width: 1050px
+    width: 1000px
   }
   .main__inner,.aside__inner{
-    width: 900px
+    width: 800px
   }
   
 }
