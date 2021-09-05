@@ -90,3 +90,12 @@
   }
   
 }
+@media (min-width: 1360px) {
+  .container{
+    width: 1280px
+  }
+  .main__inner,.aside__inner{
+    width: 1000px
+  }
+  
+}
