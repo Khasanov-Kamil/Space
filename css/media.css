@@ -73,20 +73,20 @@
    flex-direction: column;
  }
   .container{
-    min-width: 800px
+    width: 800px
   }
   .main__inner,.aside__inner{
-    min-width: 700px
+    width: 700px
   }
 }
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
   .container{
-    min-width: 1050px
+    width: 1050px
   }
   .main__inner,.aside__inner{
-    min-width: 900px
+    width: 900px
   }
   
 }
