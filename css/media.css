@@ -45,9 +45,14 @@
   }
   .about__inner{
     flex-direction: row;
+    align-items: flex-start;
   }
   .about__img{
     height: 100%;
+    flex: 0 0 50%
+  }
+  .about__info{
+    flex: 0 0 50%;
   }
   .section__container{
     flex-direction: row;
@@ -56,6 +61,7 @@
   }
   .section__item{
     flex: 0 0 47%;
+    height: 100%;
   }
   .footer__inner{
     flex-direction: row;
