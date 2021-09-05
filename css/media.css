@@ -6,7 +6,7 @@
 /* // Средние девайсы («таблетки», >= 768px) */
 @media (min-width:768px) {
   body{
-    font-size: 17;
+    font-size: 20px;
   }
  .container{
    padding: 30px
