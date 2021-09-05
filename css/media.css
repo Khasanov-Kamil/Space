@@ -8,6 +8,9 @@
   body{
     font-size: 20px;
   }
+ .header__title{
+   font-size: 5.5rem;
+ }
  .container{
    padding: 30px
  }
@@ -31,6 +34,25 @@
    width: 50%;
    margin-left: 9px
  }
+  .title{
+    font-size: 2.6rem;
+  }
+  .subtitle{
+    font-size: 2.2rem;
+  }
+  .main__inner,.aside__inner{
+    width: 600px
+  }
+  .about__inner{
+    flex-direction: row;
+  }
+  .section__container{
+    flex-direction: row;
+    justify-content: space-between
+  }
+  .section__item{
+    flex: 0 0 47%;
+  }
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
