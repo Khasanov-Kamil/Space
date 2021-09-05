@@ -46,22 +46,24 @@
   .about__inner{
     flex-direction: row;
     align-items: flex-start;
+    min-height: 100%
   }
   .about__img{
     height: 100%;
-    flex: 0 0 50%
+    flex: 1 1 50%
   }
   .about__info{
     flex: 0 0 50%;
+    height: 100%
   }
   .section__container{
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start
+    align-items: flex-start;
+    min-height: 100%
   }
   .section__item{
     flex: 0 0 47%;
-    height: 100%;
   }
   .footer__inner{
     flex-direction: row;
