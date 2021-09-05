@@ -37,7 +37,7 @@
     font-size: 2rem;
   }
   .main__inner,.aside__inner{
-    width: 600px
+    width: 700px
   }
   .about__inner{
     flex-direction: row;
@@ -65,20 +65,28 @@
   .section__text{
     min-height: 100%
   }
-  .footer__inner{
-    flex-direction: row;
-    text-align: left;
-  }
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
 @media (min-width: 992px) {
- .footer__inner{
+  .footer__inner{
    flex-direction: column;
  }
+  .container{
+    min-width: 800px
+  }
+  .main__inner,.aside__inner{
+    min-width: 700px
+  }
 }
 
 /* // Экстрабольшие девайсы (большие десктопы, >= 1200px) */
 @media (min-width: 1200px) {
+  .container{
+    min-width: 1050px
+  }
+  .main__inner,.aside__inner{
+    min-width: 900px
+  }
   
 }
