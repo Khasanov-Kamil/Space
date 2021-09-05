@@ -4,8 +4,33 @@
 }
 
 /* // Средние девайсы («таблетки», >= 768px) */
-@media (min-width: 768px) {
- 
+@media (min-width:768px) {
+  body{
+    font-size: 17;
+  }
+ .container{
+   padding: 30px
+ }
+ .header__container{
+  justify-content: left;
+ }
+ .header__inner{
+   width: 50%;
+ }
+ .header__form{
+   flex-direction: row;
+   align-items: center;
+ }
+ .header__input{
+   margin: 0;
+   width: 50%;
+   margin-right: 9px
+ }
+ .header__button{
+   margin: 0;
+   width: 50%;
+   margin-left: 9px
+ }
 }
 
 /* // Большие девайсы (десктопы, >= 992px) */
